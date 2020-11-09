@@ -27,5 +27,10 @@ namespace OOPIntro2.Manager
         {
             return null;
         }
+
+        public static AdminUser[] GetAdminUsers()
+        {
+            return null;
+        }
     }
 }

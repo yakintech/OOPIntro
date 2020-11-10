@@ -68,6 +68,10 @@ namespace OOPIntro2
             isimler.Add("Çağatay");
             isimler.Add("Şokobons");
 
+            List<ProductVM> model = ProductManager.GetAllProducts();
+            ProductVM model2 = ProductManager.GetProductByID(20);
+
+            List<ProductVM> model3 = ProductManager.GetProductsByName("q");
 
         }
     }

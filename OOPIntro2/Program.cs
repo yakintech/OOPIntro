@@ -60,7 +60,7 @@ namespace OOPIntro2
 
 
 
-            Console.ReadLine();
+          //  Console.ReadLine();
 
 
             List<string> isimler = new List<string>();
@@ -72,6 +72,11 @@ namespace OOPIntro2
             ProductVM model2 = ProductManager.GetProductByID(20);
 
             List<ProductVM> model3 = ProductManager.GetProductsByName("q");
+
+
+            List<ProductVM> model4 = ProductManager.GetProductsByCategoryName("Confections");
+
+
 
         }
     }

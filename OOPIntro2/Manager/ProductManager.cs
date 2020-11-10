@@ -9,10 +9,12 @@ namespace OOPIntro2.Manager
 {
     class ProductManager
     {
+
         public Product[] GetProducts()
         {
             //Bu metot json file dan dosya okuyup döndürecek. Bu metodu program.cs de çağıracaksın
             return null;
         }
+    
     }
 }

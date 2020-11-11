@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPIntro3.Models
 {
-    class Base
+    public class Base
     {
         string _guid = Guid.NewGuid().ToString();
         public string ID

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOPIntro3.Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -15,5 +16,8 @@ namespace OOPIntro3.Service
             File.AppendAllText(path, data);
             Console.WriteLine("Data loglandı");
         }
+
+
+
     }
 }

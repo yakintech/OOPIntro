@@ -8,6 +8,10 @@ namespace OOPIntro3.Service
 {
     class ShipperService : BaseService
     {
+        public ShipperService()
+        {
+
+        }
         public void Add()
         {
             Console.Write("Shipper add...");

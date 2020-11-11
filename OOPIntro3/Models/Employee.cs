@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPIntro3.Models
 {
+    
     class Employee : Base
     {
         public string FirstName { get; set; }

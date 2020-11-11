@@ -17,7 +17,5 @@ namespace OOPIntro3.Service
             Console.WriteLine("Data loglandı");
         }
 
-
-
     }
 }

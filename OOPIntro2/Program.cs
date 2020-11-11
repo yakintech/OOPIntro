@@ -134,14 +134,5 @@ namespace OOPIntro2
             File.AppendAllText(path, "Data loglandı. Tarihi:" + logdata.LogAddDate + "Status: " + logdata.Status);
         }
 
-
-   
-
-
-
-
-
-
-
     }
 }

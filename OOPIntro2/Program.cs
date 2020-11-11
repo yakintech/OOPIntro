@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using OOPIntro2.Interfaces;
 using OOPIntro2.Manager;
 using OOPIntro2.Models;
 using System;
@@ -58,9 +59,8 @@ namespace OOPIntro2
             double maxfiyat = products.Select(x => x.unitPrice).Max();
 
 
-
-
-          //  Console.ReadLine();
+            //Ürünün kategorisinin adı Confections olan kaç adet ürün var?
+            int count = products.Where(q => q.category?.name == "Confections").Count();
 
 
             List<string> isimler = new List<string>();
@@ -77,7 +77,71 @@ namespace OOPIntro2
             List<ProductVM> model4 = ProductManager.GetProductsByCategoryName("Confections");
 
 
+            string data2 = File.ReadAllText(@"C:\Users\Cagatay\source\repos\OOPIntro\OOPIntro2\jsonfiles\orders.json");
+
+            List<OrderVM> orders = JsonConvert.DeserializeObject<List<OrderVM>>(data2);
+
+
+
+            Word wm = new Word();
+            wm.PageSize = 200;
+            wm.PageContent = "bla bula bla";
+            PrintDeneme(wm);
+
+
+            PDF pdf = new PDF();
+            pdf.PageSize = 100;
+            pdf.PageContent = "pdf content";
+            PrintDeneme(pdf);
+
+
+
+            Product pr = new Product();
+            pr.Name = "IPhone";
+            pr.LogAddDate = DateTime.Now;
+            pr.Status = 1;
+
+            Log(pr);
+
+
+
+            Category cat = new Category();
+            cat.Name = "Elektronik";
+            cat.Status = 2;
+            cat.LogAddDate = DateTime.Now;
+
+            Log(cat);
 
         }
+
+
+
+        static void PrintDeneme(IPrint model)
+        {
+            //gelen pagesize ve content e göre print işlemi yapıyor
+            string printmodel = "Lenovo-0101";
+            string key = "Isf341^^123a";
+
+            Console.Write(model.PageContent + " print edildi...");
+        }
+
+
+
+        static void Log(ILogger logdata)
+        {
+            string path = @"C:\Users\Cagatay\source\repos\OOPIntro\OOPIntro2\Files\logfile.txt";
+
+            File.AppendAllText(path, "Data loglandı. Tarihi:" + logdata.LogAddDate + "Status: " + logdata.Status);
+        }
+
+
+   
+
+
+
+
+
+
+
     }
 }

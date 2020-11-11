@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPIntro2.Models
 {
-    class Product : Base
+    class Product : Base,ILogger
     {
         public Product()
         {
@@ -21,5 +21,8 @@ namespace OOPIntro2.Models
         public string Name { get; set; }
         public double UnitPrice { get; set; }
         public int Stock { get; set; }
+
+        public DateTime LogAddDate { get; set; }
+        public int Status { get; set; }
     }
 }

@@ -16,5 +16,7 @@ namespace OOPIntro2.Models
         public double unitPrice { get; set; }
         public CategoryVM category { get; set; }
 
+
+
     }
 }

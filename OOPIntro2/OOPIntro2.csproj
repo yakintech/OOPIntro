@@ -46,7 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Excel.cs" />
     <Compile Include="Interfaces\IEmployee.cs" />
+    <Compile Include="Interfaces\IPrint.cs" />
     <Compile Include="Manager\AdminUserManager.cs" />
     <Compile Include="Manager\CategoryManager.cs" />
     <Compile Include="Manager\ProductManager.cs" />
@@ -54,18 +57,25 @@
     <Compile Include="Models\Base.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\CategoryVM.cs" />
+    <Compile Include="Models\ILogger.cs" />
     <Compile Include="Models\InternUser.cs" />
+    <Compile Include="Models\OrderVM.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ProductVM.cs" />
     <Compile Include="Models\TechnicalUser.cs" />
+    <Compile Include="PDF.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Word.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="jsonfiles\orders.json" />
     <None Include="jsonfiles\products.json" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Files\logfile.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

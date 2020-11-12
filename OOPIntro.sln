@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPIntro2", "OOPIntro2\OOPI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPIntro3", "OOPIntro3\OOPIntro3.csproj", "{A1253A03-69B5-4D91-AB3D-412E8401A6F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPIntro4", "OOPIntro4\OOPIntro4.csproj", "{B59F8C8D-7D25-46E8-832E-46C955983F65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPUygulamaList", "OOPUygulamaList\OOPUygulamaList.csproj", "{516DC142-E9BE-42F2-82ED-AC48EFBFFAA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{A1253A03-69B5-4D91-AB3D-412E8401A6F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1253A03-69B5-4D91-AB3D-412E8401A6F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1253A03-69B5-4D91-AB3D-412E8401A6F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B59F8C8D-7D25-46E8-832E-46C955983F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59F8C8D-7D25-46E8-832E-46C955983F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59F8C8D-7D25-46E8-832E-46C955983F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59F8C8D-7D25-46E8-832E-46C955983F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{516DC142-E9BE-42F2-82ED-AC48EFBFFAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516DC142-E9BE-42F2-82ED-AC48EFBFFAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516DC142-E9BE-42F2-82ED-AC48EFBFFAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516DC142-E9BE-42F2-82ED-AC48EFBFFAA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

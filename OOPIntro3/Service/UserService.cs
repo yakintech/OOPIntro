@@ -48,5 +48,25 @@ namespace OOPIntro3.Service
 
         }
 
+        //Dışarıdan yaş alan ve yaşı o olan userları getir
+        public static List<User> GetUsersbyAge(int age)
+        {
+            List<User> model = users.Where(q => q.age == age).ToList();
+            return model;
+        }
+
+        //Dışarıdan city alan ve o city e uygun 10 userı getiren ve bu userları ada göre terste sıralayan metot
+        public static List<User> GetUsersByCity(string city)
+        {
+            List<User> model = users.Where(q => q.city.ToLower() == city.ToLower()).Take(10).OrderByDescending(q => q.name).ToList();
+            return model;
+        }
+
+        //Dışarıdan aldığı isme göre içerisinde o isim geçen userları getiren metot
+        public static List<User> GetUsersContainsName(string name)
+        {
+            List<User> model = users.Where(q => q.name.Contains(name)).ToList();
+            return model;
+        }
     }
 }

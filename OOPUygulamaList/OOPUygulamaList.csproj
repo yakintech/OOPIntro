@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A1253A03-69B5-4D91-AB3D-412E8401A6F9}</ProjectGuid>
+    <ProjectGuid>{516DC142-E9BE-42F2-82ED-AC48EFBFFAA9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OOPIntro3</RootNamespace>
-    <AssemblyName>OOPIntro3</AssemblyName>
+    <RootNamespace>OOPUygulamaList</RootNamespace>
+    <AssemblyName>OOPUygulamaList</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,35 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="config\Env.cs" />
-    <Compile Include="Interface\ISortable.cs" />
-    <Compile Include="Manager\LogManager.cs" />
-    <Compile Include="Models\Base.cs" />
-    <Compile Include="Models\Employee.cs" />
-    <Compile Include="Models\Order.cs" />
-    <Compile Include="Models\Shipper.cs" />
-    <Compile Include="Models\Supplier.cs" />
-    <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service\BaseService.cs" />
-    <Compile Include="Service\EmployeeService.cs" />
-    <Compile Include="Service\OrderService.cs" />
-    <Compile Include="Service\ShipperService.cs" />
-    <Compile Include="Service\SupplierService.cs" />
-    <Compile Include="Service\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Files\suppliers.json" />
-    <None Include="Files\users.json" />
-    <None Include="packages.config" />
+    <None Include="Files\f12010.json" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Files\log.txt" />
-    <Content Include="Files\orderlog.txt" />
-    <Content Include="Files\systemlog.txt" />
+    <Folder Include="Manager\" />
+    <Folder Include="Models\" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

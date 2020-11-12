@@ -46,10 +46,11 @@ namespace OOPIntro3
             };
 
 
-            UserService.Deneme()
-            
+            List<User> users = new List<User>();
+            List<User> users2 = new List<User>();
 
 
+            users.AddRange(users2)
         }
     }
 }

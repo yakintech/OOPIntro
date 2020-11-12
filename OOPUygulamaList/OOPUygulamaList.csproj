@@ -49,6 +49,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Files\f12010.json" />
+    <None Include="Files\products.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Manager\" />

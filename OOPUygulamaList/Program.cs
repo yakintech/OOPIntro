@@ -30,6 +30,14 @@ namespace OOPUygulamaList
 
             //Kullanıcı console dan round girdiğinde o round a  ait circuitName ve url yanyana ekrana yazdırsın
 
+            // Kullanıcı consoledan  dakika girsin (15 gibi girebilir. time propertyisi) o dakikanın altında yarışı bitiren raceName ekrana yazdırsın
+
+            //Kullanıcı consoledan  country alsın o country deki raceName ekrana yazdırsın
+
+
+            //Products sorular
+
+     
 
 
         }

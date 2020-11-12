@@ -21,7 +21,15 @@ namespace OOPUygulamaList
             //Kullanıcı console dan ay girecek ( ayı number olarak alacak. Örneğin 4) O aya ait raceName ekrana gelecek
 
             //Kullanıcı console dan ay girecek O ay dan sonraki racenameleri teker teker ekrana yazacak
-            //
+
+            // Kullanıcı console dan racename search edecek ve o racename e ait url ekrana gelecek. (racename contains kullanılacak )
+
+            //   Kullanıcı console dan circuitName search edece ve o circuitName e ait url ekrana gelecek. (circuit içerisindeki url. circuitName contains kullanılacak )
+
+            // Races de kaç adet  yarış olduğunu getiren metot ( BASİT )
+
+            //Kullanıcı console dan round girdiğinde o round a  ait circuitName ve url yanyana ekrana yazdırsın
+
 
 
         }

@@ -52,6 +52,7 @@
     <Compile Include="Interfaces\IPrint.cs" />
     <Compile Include="Manager\AdminUserManager.cs" />
     <Compile Include="Manager\CategoryManager.cs" />
+    <Compile Include="Manager\OrderManager.cs" />
     <Compile Include="Manager\ProductManager.cs" />
     <Compile Include="Models\AdminUser.cs" />
     <Compile Include="Models\Base.cs" />

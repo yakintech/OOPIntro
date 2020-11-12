@@ -14,11 +14,26 @@ namespace OOPIntro3.Models
         public Address address { get; set; }
     }
 
+    //   Datayı çektiğinde telefonların soluna +90 eklesin ( supplierdaki get set manipüle edilecek) 
     class Address
     {
         public string street { get; set; }
         public string city { get; set; }
         public string region { get; set; }
-        public string phone { get; set; }
+
+        string _phone = "";
+        public string phone {
+            get
+            {
+                return _phone;
+            }
+            set
+            {
+                _phone = "+90" + value;
+            } 
+        }
     }
+  
+
+
 }

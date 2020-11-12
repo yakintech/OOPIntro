@@ -52,6 +52,7 @@
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\Shipper.cs" />
     <Compile Include="Models\Supplier.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\BaseService.cs" />
@@ -59,10 +60,12 @@
     <Compile Include="Service\OrderService.cs" />
     <Compile Include="Service\ShipperService.cs" />
     <Compile Include="Service\SupplierService.cs" />
+    <Compile Include="Service\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Files\suppliers.json" />
+    <None Include="Files\users.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

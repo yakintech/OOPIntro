@@ -20,9 +20,20 @@ namespace OOPIntro3.Service
             return suppliers;
         }
 
-        //   ID ye göre supplier getiren metot
-        //    Dışarıdan aldığı companyname e göre contains olan supplierlar
         //Dışarıdan aldığı city e göre supplierları getiren ve ada göre sıralayan metot
+        public static List<Supplier> GetSuppliersByCity(string cityname)
+        {
+            List<Supplier> model = suppliers.Where(q => q.address.city == cityname).OrderBy(w => w.companyName).ToList();
+
+            return model;
+
+        }
+
+
+        //   ID ye göre supplier getiren metot
+        //   Dışarıdan aldığı companyname e göre contains olan supplierlar
+        //   Dışarıdan aldığı city e göre supplierları getiren ve ada göre sıralayan metot
+        //   Datayı çektiğinde telefonların soluna +90 eklesin ( supplierdaki get set manipüle edilecek) 
 
 
 

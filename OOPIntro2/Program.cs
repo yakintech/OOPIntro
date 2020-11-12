@@ -15,6 +15,12 @@ namespace OOPIntro2
     {
         static void Main(string[] args)
         {
+
+            OrderManager.GetOrders(200);
+
+
+       
+
             //AdminUser adminuser = new AdminUser();
             //adminuser.Name = "Çağatay";
             //adminuser.SurName = "Yıldız";
@@ -77,9 +83,7 @@ namespace OOPIntro2
             List<ProductVM> model4 = ProductManager.GetProductsByCategoryName("Confections");
 
 
-            string data2 = File.ReadAllText(@"C:\Users\Cagatay\source\repos\OOPIntro\OOPIntro2\jsonfiles\orders.json");
-
-            List<OrderVM> orders = JsonConvert.DeserializeObject<List<OrderVM>>(data2);
+           
 
 
 
@@ -111,6 +115,8 @@ namespace OOPIntro2
             cat.LogAddDate = DateTime.Now;
 
             Log(cat);
+
+
 
         }
 

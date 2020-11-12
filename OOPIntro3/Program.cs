@@ -25,9 +25,30 @@ namespace OOPIntro3
             ShipperService shipperservice = new ShipperService();
             shipperservice.LogData("Kargoyu metrobüsle MENTAL olarak yolladım");
 
-            string data = File.ReadAllText(Env.fileurl +  "suppliers.json");
+            string data = File.ReadAllText(Env.fileurl +  "suppliers.json", Encoding.Default);
 
             List<Supplier> suppliers = JsonConvert.DeserializeObject<List<Supplier>>(data);
+
+
+            var data2 = SupplierService.GetSuppliersByCity("Montréal");
+
+
+            User user = new User();
+            user.name = "Doğan";
+            user.age = 18;
+
+            User user2 = new User
+            {
+                name = "Çağatay",
+                age = 333,
+                city = "Ankara",
+                phone = "555-555-55-55"
+            };
+
+
+            UserService.Deneme()
+            
+
 
         }
     }

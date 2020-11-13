@@ -1,4 +1,5 @@
-﻿using OOPUygulamaList.Models;
+﻿using OOPUygulamaList.Manager;
+using OOPUygulamaList.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,12 @@ namespace OOPUygulamaList
     {
         static void Main(string[] args)
         {
+            DataManager<Order> dtmanager = new DataManager<Order>();
+            //DataManager<Student> dtmanager2 = new DataManager<Student>();
+
+
+            //var data =  dtmanager.GetByID<Order>(3);
+
 
             //çok katmanlı bir proje aç ve tüm productları döndüren bir metot yaz
             //Bu metodu console da çağır
@@ -71,9 +78,6 @@ namespace OOPUygulamaList
 
 
             products[22] = "Huawei";
-
-
-
 
 
         }

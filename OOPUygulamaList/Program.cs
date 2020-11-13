@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOPUygulamaList.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -41,6 +42,36 @@ namespace OOPUygulamaList
 
 
             //Products sorular
+
+            dynamic dstudent = new Student();
+            var dstudent2 = new Student();
+
+            dstudent.DisplayStudentInfo(333);
+
+            dstudent.DisplayStudentInfo("imkansız");
+
+            //Console.ReadLine();
+
+            var urun = new
+            {
+                ad = "IPhone",
+                fiyat = 33,
+                detay = new
+                {
+                    camozellik = "Kırılmaz cam",
+                    bataryasure= "29 saat"
+                }
+            };
+
+            IDictionary<int, string> products = new Dictionary<int, string>(); 
+            var products2 = new Dictionary<int, string>();
+
+            products.Add(1, "IPhone");
+            products.Add(2, "Samsung");
+
+
+            products[22] = "Huawei";
+
 
 
 

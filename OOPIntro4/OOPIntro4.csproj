@@ -49,6 +49,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enums\EnumDepartman.cs" />
+    <Compile Include="Manager\Repository.cs" />
+    <Compile Include="Models\Base.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Print.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

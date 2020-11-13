@@ -10,6 +10,11 @@ namespace OOPUygulamaList
     {
         static void Main(string[] args)
         {
+
+            //çok katmanlı bir proje aç ve tüm productları döndüren bir metot yaz
+            //Bu metodu console da çağır
+
+
             //f12010 a birebir tüm kolonlarını alacağım bir class oluştur
 
             //Kullanıcı console dan round girdiğinde o round a  ait raceName ekrana yazdırılsın
@@ -37,7 +42,7 @@ namespace OOPUygulamaList
 
             //Products sorular
 
-     
+
 
 
         }

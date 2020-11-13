@@ -30,6 +30,8 @@ namespace OOPIntro2.Manager
 
             List<OrderVM> model = orders.Where(q => q.TotalPrice > fiyat).ToList();
 
+
+
             return model;
         } 
     }

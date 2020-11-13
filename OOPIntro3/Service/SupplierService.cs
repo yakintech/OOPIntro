@@ -13,6 +13,8 @@ namespace OOPIntro3.Service
     class SupplierService
     {
         static string data = File.ReadAllText(Env.fileurl + "suppliers.json");
+
+
         static List<Supplier> suppliers = JsonConvert.DeserializeObject<List<Supplier>>(data);
 
         public static List<Supplier> GetSuppliers()

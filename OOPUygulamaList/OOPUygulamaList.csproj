@@ -50,7 +50,9 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Files\f12010.json" />
+    <None Include="Files\orders.json" />
     <None Include="Files\products.json" />
+    <None Include="Files\user.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Manager\" />

@@ -1,0 +1,21 @@
+﻿[
+  {
+    "id": 1,
+    "orderaddress": "Mekkaracei sokak No:4 D:1",
+    "city": "İstanbul",
+    "description": "Ön ödemeli"
+  },
+  {
+    "id": 2,
+    "orderaddress": "Bakraç sokak No:14 D:1",
+    "city": "İzmir",
+    "description": "Kapıda Ödeme"
+  },
+  {
+    "id": 3,
+    "orderaddress": "İncirli caddesi No:15",
+    "city": "İstanbul",
+    "description": "Kredi kartı"
+  }
+
+]

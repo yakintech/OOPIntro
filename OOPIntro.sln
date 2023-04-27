@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPIntro", "OOPIntro\OOPIntro.csproj", "{22F342E6-654A-45ED-ABD2-83A2D7F285F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormSample", "FormSample\FormSample.csproj", "{B0AF94CD-54C9-4E02-9442-A99A155D14B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormSample", "FormSample\FormSample.csproj", "{B0AF94CD-54C9-4E02-9442-A99A155D14B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImdbSample", "ImdbSample\ImdbSample.csproj", "{06192969-CBD4-4115-ABB4-84C6516036FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B0AF94CD-54C9-4E02-9442-A99A155D14B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0AF94CD-54C9-4E02-9442-A99A155D14B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0AF94CD-54C9-4E02-9442-A99A155D14B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06192969-CBD4-4115-ABB4-84C6516036FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06192969-CBD4-4115-ABB4-84C6516036FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06192969-CBD4-4115-ABB4-84C6516036FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06192969-CBD4-4115-ABB4-84C6516036FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
